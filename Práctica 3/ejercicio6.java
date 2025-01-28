@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ejercicio6 {
 
 
-    class InvertirFrase{
+
         public static void main (String[] args){
             Scanner scanner = new Scanner(System.in);
 
@@ -16,4 +16,4 @@ public class ejercicio6 {
 
         }
     }
-}
+

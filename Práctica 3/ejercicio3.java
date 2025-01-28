@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ejercicio3 {
 
-    class SumaHastaX{
+
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
@@ -18,4 +18,4 @@ public class ejercicio3 {
         }
     }
 
-}
+

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ejercicio5 {
 
-    class pesopaquete{
+
         public static void main(String[] args){
             Scanner scanner = new Scanner (System.in);
 
@@ -20,4 +20,4 @@ public class ejercicio5 {
             System.out.println("El peso total del paquete es: "+ pesototal + " gramos");
         }
     }
-}
+

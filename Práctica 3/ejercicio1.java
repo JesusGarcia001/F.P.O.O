@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class ejercicio1 {
 
-    class CalcularPaga {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
@@ -18,4 +17,4 @@ public class ejercicio1 {
         }
     }
 
-}
+

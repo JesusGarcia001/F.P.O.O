@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class ejercicio2 {
 
-    class FormaterarNombre{
         public static void main(String[] args){
             Scanner scanner = new Scanner(System.in);
 
@@ -26,4 +25,3 @@ public class ejercicio2 {
 
 
 
-}
