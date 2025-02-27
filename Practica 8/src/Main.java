@@ -11,7 +11,7 @@ public class Main {
 
         //intento de consulta cortana
         //MasterChief.consultaCortana();
-        
+
         //usamos get y set para cambiar atributo nombre
         MasterChief.setNombre("Jesus Garcia");
         MasterChief.mostrarInfo();
