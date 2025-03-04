@@ -10,10 +10,11 @@ public class Main {
         Entrega entrega = new Entrega(envio.getCodigoEnvio());
 
         String menu = "1. Crear nuevo vehículo \n " +
-                "2. Crear nuevo envío \n" +
+                "2. Crear nuevo conductor \n" +
                 "3. Crear nuevo envío \n" +
                 "4. Actualizar estado de entrega \n" +
-                "5. Salir";
+                "5. Ver Información del vehiculo \n"+
+                "6. Salir";
 
         int opcion;
 
@@ -36,6 +37,9 @@ public class Main {
                     entrega.actualizarEstado();
                     break;
                 case 5:
+                    vehiculo.mostrarInfo();
+                    break;
+                case 6:
                     JOptionPane.showMessageDialog(null, "Saliendo del Programa. ");
                     break;
                 default:

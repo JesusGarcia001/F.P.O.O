@@ -46,4 +46,8 @@ public class Vehiculo {
         }
     }
 
+    public void mostrarInfo(){
+        JOptionPane.showMessageDialog(null, "Placa: " + placa + "\nModelo: " + modelo + "\nCapacidad de Carga: " + capacidadCarga + "\nConductor: " + (conductor != null ? conductor.getNombre() : "Sin asignar"));
+    }
+
 }
